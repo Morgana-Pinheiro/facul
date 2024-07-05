@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	<title>Formulário sobre cachorro</title>
+	</head>
+<body bgcolor="lightgray" align="center">
+	<!--Desenvolvimento de um formulário a ser preenchido pelo usuário contendo pelo menos:
+Campos com todas as suas variações: Text, password, radio, checkbox, submit, reset, button, textarea, select
+Elementos: name, value, size, maxlength, checked, rows, cols-->
+<h1>Nos conte um pouco sobre o seu melhor amigo!</h1>
+
+	<img src="https://petdoctor.com.br/wp-content/uploads/2021/04/10RacasDeCaesMaisPopularesNoBrasil-Topo-Abr21.jpg" alt="Vários filhotes de cachorro" width="600" height="310">
+<br>
+<form action="exemplo.html" method="post">
+	<br>
+	<fieldset>
+	<legend>Qual o nome do seu cachorro?</legend>
+<input type="text" name="nomecachorro" maxlength="20"  placeholder="Digite aqui!">
+</fieldset>
+<br>
+	<fieldset>
+	<legend>Qual a raça do seu cachorro?</legend>
+	<select name="raca">
+		<option value="vazio"></option>
+		<option value="spitz">Spitz Alemão (Lulu)</option>
+		<option value="bulldog">Bulldog Francês</option>
+		<option value="shihtzu">Shih Tzu</option>
+		<option value="rott">Rottweiler</option>
+		<option value="pug">Pug</option>
+		<option value="golden">Golden Retriever</option>
+		<option value="pastor">Pastor Alemão</option>
+		<option value="york">Yorkshire Terrier</option>
+		<option value="border">Border Collie</option>
+		<option value="srd">SRD (Sem raça definida)</option>
+	</select>
+<br>
+Outro:
+<br><textarea name="outro" rows="1" cols="22" placeholder="Caso não conste na lista"></textarea>
+</fieldset>
+<br>
+<fieldset>
+<legend>Qual a idade do seu cachorro?</legend>
+<label><input type="radio" name="idade" value="filhote">Até 1 ano (Filhote)</label> <br>
+<label><input type="radio" name="idade" value="adulto">1 a 7 anos (Adulto) </label><br>
+<label><input type="radio" name="idade" value="idoso">+ de 7 anos (Idoso) </label><br>
+</fieldset>
+<br>
+<fieldset>
+<legend>Qual o temperamento do seu cachorro?</legend>
+<label><input type="checkbox" name="calmo">Calmo</label>
+<label><input type="checkbox" name="agitado">Agitado</label>
+<label><input type="checkbox" name="protetor">Protetor</label>
+<label><input type="checkbox" name="companheiro">Companheiro</label>
+<label><input type="checkbox" name="comilao">Comilão</label> <br>
+<label><input type="checkbox" name="carinhoso">Carinhoso</label>
+<label><input type="checkbox" name="sociavel">Sociável</label>
+<label><input type="checkbox" name="agressivo">Agressivo</label>
+<label><input type="checkbox" name="teimoso">Teimoso</label>
+<label><input type="checkbox" name="outro" checked>Outro</label>
+</fieldset>
+<br>
+<input type="reset" value="Limpar formulário">
+<br>
+<hr color="black" align="center" size="6">
+<br>
+Usuário:
+<input type="text" name="usuario" maxlength="15" size="15" placeholder="Digite o nome aqui" required>
+Senha:
+<input type="password" name="senha" maxlength="8" size="10" placeholder="********" required>
+<input type="submit" value="Enviar">
+<br><br>
+Caso não tenha uma conta, clique em <input type="button" value="Criar conta" onclick="Valida()">
+</form>
+</body>
+</html>
