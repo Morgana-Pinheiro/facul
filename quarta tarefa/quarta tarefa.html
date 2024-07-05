@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+	<title>Galeria de Imagens</title>
+	
+	<script type="text/javascript">
+		function openNav() {
+			document.getElementById("myNav").style.width = '100%';
+		}
+		function closeNav() {
+			document.getElementById("myNav").style.width = '0%';
+		}
+	</script>
+
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			outline: 0;
+			}
+
+		.nav-button{
+			border: 2px solid #B1CC74;
+			border-radius: 15px;
+			padding: 8px;
+			background-color: #E8FCC2;
+			margin: 10px;
+			cursor: pointer;
+			font-variant: small-caps;
+  			}
+
+		.nav-button i {
+			color: #545F66;
+  			font-size: 15px;
+  			}
+
+  		.overlay{
+			width: 0;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.9);
+			z-index: 9;
+			position: fixed;
+			left: 0;
+			top: 0;
+			overflow-x: hidden;
+			transition: all 0.5s;
+			}
+
+		.overlay-content{
+			position: relative;
+			top: 25%;
+			width: 100%;
+			text-align: center;
+			margin-top: 30px;
+			font-variant: small-caps;
+			}
+
+		.overlay a{
+			padding: 8px;
+			text-decoration: none;
+			color: #818181;
+			display: block;
+			font-size: 34px;
+			transition: 0.3s;
+			}
+
+		.overlay a:hover, overlay a:focus{
+			color: #f1f1f1;
+			}
+
+		.overlay .closebtn {
+			position: absolute;
+			top: 25px;
+			right: 45px;
+			font-size: 60px;
+			}
+
+		@media only screen and (max-width: 450px){
+			.overlay a {font-size: 20px;}
+			.overlay, .closebtn {
+				font-size: 40px;
+				top: 15px;
+				right: 35px;
+				}
+			}	
+
+		body {
+			font-family: sans-serif;
+  			background-color: #E8FCC2;
+  			align-items: center;
+  			align-content: center;					
+            }
+
+  		.texto {
+  			color: #545F66;
+  			text-align: center;
+  			font-variant: small-caps;
+  			margin: 10px;
+  			padding-bottom: 50px;
+  			}
+
+  		.titulo{
+  			color: #545F66;
+  			text-align: center;
+  			font-variant: small-caps;
+  			font-size: 40px;
+  			margin-bottom: 20px;			
+  			}
+
+		.container {
+			margin: 20px;
+ 			display: inline-block;
+ 			width: 400px;
+  			height: 350px;
+  			flex-direction: row;
+  			flex-wrap: wrap;
+  			max-width: 1400px;
+  			justify-content: center; 
+  			border: 2px solid #B1CC74;
+  			border-width: 3px;
+  			border-radius: 15px;
+  			}
+
+		.container img {
+  			max-width: 100%;
+  			width: 400px;
+  			height: 300px;
+  			margin: 0 auto;
+  			border-radius: 10px;
+  			}
+</style>
+</head> 
+<body> 
+	<button class="nav-button" onclick="openNav()">
+	<i class="fa-solid fa-bars fa-2x"> menu</i>
+</button>
+
+<div id="myNav" class="overlay">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+	<div class="overlay-content">
+			<a href="https://umaturistanasnuvens.com/doces-ao-redor-mundo/#more-19104" target="_blank">matéria sobremesas</a>
+			<a href="https://umaturistanasnuvens.com/category/dicas/" target="_blank">dicas</a>
+			<a href="https://umaturistanasnuvens.com/sobre/" target="_blank">sobre</a>
+			<a href="https://umaturistanasnuvens.com/contato/" target="_blank">contato</a>
+			</div>
+	</div>
+	
+<h2 class="titulo">sobremesas ao redor do mundo</h1>
+
+<div class="container">
+<div class="foto"> 
+	<img src="cheesecake.webp" ></div>
+    <div class="texto">cheesecake - eua </div>
+</div>
+<div class="container">
+<div class="foto">
+	<img src="baklava.webp"></div>
+	<div class="texto">baklava - turquia </div>
+</div>
+<div class="container">
+<div class="foto">
+	<img src="cremebrulee.webp"></div>
+	<div class="texto">crème brûlée - frança </div>
+
+</div>
+<div class="container">
+ <div class="foto">
+	<img src="florestanegra.webp"></div>
+	<div class="texto">floresta negra - alemanha </div>
+</div>
+
+<div class="container">
+<div class="foto">
+	<img src="gulabjamun.webp"></div>
+	<div class="texto">gulab jamun - índia </div>
+</div>
+
+<div class="container">
+<div class="foto">
+	<img src="tiramisu.webp"></div>
+	<div class="texto">tiramusú – itália </div>
+</div>
+<div class="container">
+<div class="foto">
+	<img src="macarons.webp"></div>
+	<div class="texto">macaron – frança </div>
+</div>
+<div class="container">	
+<div class="foto">
+	<img src="brigadeiro.jpg"></div>	
+	<div class="texto">brigadeiro - brasil </div>
+</div>
+
+	</body>
+</html>
