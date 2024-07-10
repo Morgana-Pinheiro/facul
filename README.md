@@ -4,5 +4,7 @@ A segunda tarefa foi para desenvolver um formulário de algum tema de meu intere
 
 A terceira tarefa foi para desenvolver um site com HTML de algum tema aleatório (escolhi doces populares pelo mundo) e estilizar com CSS. A quarta tarefa foi para incluir um menu no site já criado na terceira tarefa.
 
-![Uploading image.png…]()
+<p align="center">
+  <img alt="Galeria de Imagens" src="/tarefas/quarta-tarefa/fotodosite" width="100%">
+</p>
 
