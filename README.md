@@ -1,7 +1,7 @@
 <p align="center">
-  <a href="#-primeira">Primeira Tarefa</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-segunda">Segunda Tarefa</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-terceira">Terceira Tarefa</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-Primeira">Primeira Tarefa</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Segunda">Segunda Tarefa</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Terceira">Terceira Tarefa</a>&nbsp;&nbsp;&nbsp;
   </p>
 
 ## Primeira
